@@ -1,3 +1,9 @@
+import Button from '../../e-commerce-common-design/src/components/Button';
+
 export default function Home() {
-  return <main>Hello World</main>;
+  return (
+    <main>
+      <Button />
+    </main>
+  );
 }
