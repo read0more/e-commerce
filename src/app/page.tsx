@@ -1,9 +1,14 @@
-import Button from '../../e-commerce-common-design/src/components/Button';
+'use client';
+
+import useToast from '@common-design/hooks/useToast';
 
 export default function Home() {
-  return (
-    <main>
-      <Button />
-    </main>
-  );
+  const { open } = useToast({
+    message: 'Hello, world!',
+    options: {
+      type: 'success',
+    },
+  });
+
+  return <main>123</main>;
 }

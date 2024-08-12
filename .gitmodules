@@ -1,0 +1,3 @@
+[submodule "src/e-commerce-common-design"]
+	path = src/e-commerce-common-design
+	url = https://github.com/read0more/e-commerce-common-design.git
