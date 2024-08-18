@@ -1,9 +1,8 @@
 import type { Metadata } from 'next';
 import localFont from 'next/font/local';
 import './globals.css';
-import '@common-design/global.css';
-import ToastContainer from '@common-design/components/ToastContainer';
-import Theme from '@/e-commerce-common-design/src/components/Theme';
+import YkButton from '@common-design/src/components/yk-button';
+import YkButton2 from '@common-design/src/components/yk-button2';
 
 const suitFont = localFont({ src: 'SUIT-Variable.woff2' });
 
@@ -20,10 +19,9 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={suitFont.className}>
-        <Theme>
-          {children}
-          <ToastContainer />
-        </Theme>
+        <YkButton name="test" />
+        <YkButton2 name="test2" />
+        {children}
       </body>
     </html>
   );

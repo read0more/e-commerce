@@ -19,7 +19,9 @@
     ],
     "paths": {
       "@/*": ["./src/*"],
-      "@common-design/*": ["./src/e-commerce-common-design/src/*"]
+      "@common-design/*": [
+        "./node_modules/@read0more/e-commerce-common-design2/*"
+      ]
     }
   },
   "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts"],
